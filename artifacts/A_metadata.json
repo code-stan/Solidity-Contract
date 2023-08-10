@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getInteger",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CohortPractice.sol": "A"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CohortPractice.sol": {
+			"keccak256": "0xa46c1182be09a2edc9958f64c3e38e89a3737f6aedab63e03dd2ee2310869344",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6fd1f092d1cc18e7f469a696b09d6bc639cee49e8948d101aff4edc3fb944d9a",
+				"dweb:/ipfs/Qmacb4LNwi3PKgZ8kVgh673V3oWubYYQiSr7bDDsp2V4Uy"
+			]
+		}
+	},
+	"version": 1
+}

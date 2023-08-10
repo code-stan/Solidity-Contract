@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_randomNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "randomNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_randomNumbeer",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AnotherStorage.sol": "AnotherStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AnotherStorage.sol": {
+			"keccak256": "0xfb85134fb8b78e9a84699bd74b5cc935fd491e0c60a7348f8887f62787490399",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82f5dff39d1be4fcc8412c19d69c3e393aa136f41ba22ded02af2c8b095203a0",
+				"dweb:/ipfs/QmS2v61611KYiysLwZhbRJ77KwxUzM9XoH2Z3hgSBFaC4S"
+			]
+		},
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x7b912fd5c1b9a3484172c7687e58b30cee06f4351e6d355aec6ba71ccc98c6ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://068227240b1916635723de571b16ba124c7ae51b215d1c6557bb988b166e137e",
+				"dweb:/ipfs/QmU7FgcymdCrDbdmFhXEftta6W5u4PCVFSc8ZkmzAJGYHT"
+			]
+		}
+	},
+	"version": 1
+}
